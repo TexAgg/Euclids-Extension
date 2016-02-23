@@ -1,3 +1,8 @@
+/**
+ * Calculates the GCD of u and v
+ * @param two integers u,v
+ * @return An object containing a,b, and d
+ */
 function gcd_E(u,v){
     
     var m = math.matrix([[1,0],[0,1]]);
@@ -19,6 +24,9 @@ function gcd_E(u,v){
     return {d,a,b};   
 }
 
+/**
+ * Displays the GCD and the relevant data
+ */
 function on_submit(){
     var u = parseInt(document.getElementById('u').value);
     var v = parseInt(document.getElementById('v').value);

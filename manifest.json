@@ -3,7 +3,7 @@
     "manifest_version": 2,
     
     "name": "Extended Euclidean Algorithm",
-    "description": "Yeah",
+    "description": "The Extended Euclidean Algorithm. Finds the gcd(u,v) such that u*a+b*v=d.",
     "version": "0",
     
     // https://developer.chrome.com/extensions/manifest/icons

@@ -40,7 +40,7 @@ function on_submit(){
     var output = document.getElementById('output');
     
     var test = "a: " + a + "b: " + b + "d: " + d;
-    console.log(test);
+    //console.log(test);
     
     output.innerHTML = test;
             

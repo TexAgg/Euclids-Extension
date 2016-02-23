@@ -1,0 +1,32 @@
+// https://developer.chrome.com/extensions/manifest
+{
+    "manifest_version": 2,
+    
+    "name": "Extended Euclidean Algorithm",
+    "description": "Yeah",
+    "version": "0",
+    
+    // https://developer.chrome.com/extensions/manifest/icons
+    "icons": {
+        "16": "media/icon.png",
+        "48": "media/icon.png",
+        "128": "media/icon.png"
+    },
+    
+    "browser_action": {
+        "default_icon":{
+            "19": "media/icon.png",
+            "38": "media/icon.png"
+        },   
+        "default_popup": "popup.html",
+        "default_title": "Click here!"
+    },
+    
+    "permissions": [
+        // https://developer.chrome.com/extensions/declare_permissions
+        "activeTab",
+        "https://ajax.googleapis.com/"
+    ],
+    
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

@@ -4,7 +4,7 @@
     
     "name": "Extended Euclidean Algorithm",
     "description": "The Extended Euclidean Algorithm. Finds the gcd(u,v) such that u*a+b*v=d.",
-    "version": "0",
+    "version": "1",
     
     // https://developer.chrome.com/extensions/manifest/icons
     "icons": {
